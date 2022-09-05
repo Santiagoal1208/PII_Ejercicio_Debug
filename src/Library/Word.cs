@@ -18,7 +18,8 @@ namespace WordsPhrases
         /// <param name="text">El texto de la palabra.</param>
         public Word(string text)
         {
-            this.Text = text;
+            string palabra=text.Trim();
+            this.Text = palabra;
         }
 
         /// <summary>
